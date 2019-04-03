@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "946E9B8D223CEAFA003785AB"
+               BlueprintIdentifier = "94DD583D2254827800FA967B"
                BuildableName = "AssistiveTouch.framework"
                BlueprintName = "AssistiveTouch"
                ReferencedContainer = "container:AssistiveTouch.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "946E9B8D223CEAFA003785AB"
+            BlueprintIdentifier = "94DD583D2254827800FA967B"
             BuildableName = "AssistiveTouch.framework"
             BlueprintName = "AssistiveTouch"
             ReferencedContainer = "container:AssistiveTouch.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "946E9B8D223CEAFA003785AB"
+            BlueprintIdentifier = "94DD583D2254827800FA967B"
             BuildableName = "AssistiveTouch.framework"
             BlueprintName = "AssistiveTouch"
             ReferencedContainer = "container:AssistiveTouch.xcodeproj">

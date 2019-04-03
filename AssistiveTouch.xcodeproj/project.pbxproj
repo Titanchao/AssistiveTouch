@@ -7,50 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		946E9B93223CEAFA003785AB /* AssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 946E9B91223CEAFA003785AB /* AssistiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		946E9BA1223CEB40003785AB /* ATRootViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9A223CEB40003785AB /* ATRootViewC.swift */; };
-		946E9BA2223CEB40003785AB /* ATItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9B223CEB40003785AB /* ATItemView.swift */; };
-		946E9BA3223CEB40003785AB /* AssistiveTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9C223CEB40003785AB /* AssistiveTouch.swift */; };
-		946E9BA4223CEB40003785AB /* ATLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9D223CEB40003785AB /* ATLayoutAttributes.swift */; };
-		946E9BA5223CEB40003785AB /* ATViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9E223CEB40003785AB /* ATViewC.swift */; };
-		946E9BA6223CEB40003785AB /* ATNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9B9F223CEB40003785AB /* ATNavigationC.swift */; };
-		946E9BA7223CEB40003785AB /* ATPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9BA0223CEB40003785AB /* ATPosition.swift */; };
-		946E9BAF223CEC6C003785AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9BAE223CEC6C003785AB /* AppDelegate.swift */; };
-		946E9BB1223CEC6C003785AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E9BB0223CEC6C003785AB /* ViewController.swift */; };
-		946E9BB4223CEC6C003785AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946E9BB2223CEC6C003785AB /* Main.storyboard */; };
-		946E9BB6223CEC6C003785AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946E9BB5223CEC6C003785AB /* Assets.xcassets */; };
-		946E9BB9223CEC6C003785AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946E9BB7223CEC6C003785AB /* LaunchScreen.storyboard */; };
+		94DD58432254827800FA967B /* AssistiveTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DD58412254827800FA967B /* AssistiveTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DD58512254829300FA967B /* ATRootViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584A2254829300FA967B /* ATRootViewC.swift */; };
+		94DD58522254829300FA967B /* ATItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584B2254829300FA967B /* ATItemView.swift */; };
+		94DD58532254829300FA967B /* AssistiveTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584C2254829300FA967B /* AssistiveTouch.swift */; };
+		94DD58542254829300FA967B /* ATLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584D2254829300FA967B /* ATLayoutAttributes.swift */; };
+		94DD58552254829300FA967B /* ATViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584E2254829300FA967B /* ATViewC.swift */; };
+		94DD58562254829300FA967B /* ATNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD584F2254829300FA967B /* ATNavigationC.swift */; };
+		94DD58572254829300FA967B /* ATPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD58502254829300FA967B /* ATPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		946E9B8E223CEAFA003785AB /* AssistiveTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssistiveTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		946E9B91223CEAFA003785AB /* AssistiveTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssistiveTouch.h; sourceTree = "<group>"; };
-		946E9B92223CEAFA003785AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		946E9B9A223CEB40003785AB /* ATRootViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATRootViewC.swift; sourceTree = "<group>"; };
-		946E9B9B223CEB40003785AB /* ATItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATItemView.swift; sourceTree = "<group>"; };
-		946E9B9C223CEB40003785AB /* AssistiveTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveTouch.swift; sourceTree = "<group>"; };
-		946E9B9D223CEB40003785AB /* ATLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATLayoutAttributes.swift; sourceTree = "<group>"; };
-		946E9B9E223CEB40003785AB /* ATViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATViewC.swift; sourceTree = "<group>"; };
-		946E9B9F223CEB40003785AB /* ATNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATNavigationC.swift; sourceTree = "<group>"; };
-		946E9BA0223CEB40003785AB /* ATPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATPosition.swift; sourceTree = "<group>"; };
-		946E9BAC223CEC6C003785AB /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		946E9BAE223CEC6C003785AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		946E9BB0223CEC6C003785AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		946E9BB3223CEC6C003785AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		946E9BB5223CEC6C003785AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		946E9BB8223CEC6C003785AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		946E9BBA223CEC6C003785AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD583E2254827800FA967B /* AssistiveTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssistiveTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD58412254827800FA967B /* AssistiveTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssistiveTouch.h; sourceTree = "<group>"; };
+		94DD58422254827800FA967B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD584A2254829300FA967B /* ATRootViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATRootViewC.swift; sourceTree = "<group>"; };
+		94DD584B2254829300FA967B /* ATItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATItemView.swift; sourceTree = "<group>"; };
+		94DD584C2254829300FA967B /* AssistiveTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveTouch.swift; sourceTree = "<group>"; };
+		94DD584D2254829300FA967B /* ATLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATLayoutAttributes.swift; sourceTree = "<group>"; };
+		94DD584E2254829300FA967B /* ATViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATViewC.swift; sourceTree = "<group>"; };
+		94DD584F2254829300FA967B /* ATNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATNavigationC.swift; sourceTree = "<group>"; };
+		94DD58502254829300FA967B /* ATPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		946E9B8B223CEAFA003785AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		946E9BA9223CEC6C003785AB /* Frameworks */ = {
+		94DD583B2254827800FA967B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,83 +41,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		946E9B84223CEAFA003785AB = {
+		94DD58342254827800FA967B = {
 			isa = PBXGroup;
 			children = (
-				946E9B90223CEAFA003785AB /* AssistiveTouch */,
-				946E9BAD223CEC6C003785AB /* demo */,
-				946E9B8F223CEAFA003785AB /* Products */,
+				94DD58402254827800FA967B /* AssistiveTouch */,
+				94DD583F2254827800FA967B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		946E9B8F223CEAFA003785AB /* Products */ = {
+		94DD583F2254827800FA967B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				946E9B8E223CEAFA003785AB /* AssistiveTouch.framework */,
-				946E9BAC223CEC6C003785AB /* demo.app */,
+				94DD583E2254827800FA967B /* AssistiveTouch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		946E9B90223CEAFA003785AB /* AssistiveTouch */ = {
+		94DD58402254827800FA967B /* AssistiveTouch */ = {
 			isa = PBXGroup;
 			children = (
-				946E9B91223CEAFA003785AB /* AssistiveTouch.h */,
-				946E9B99223CEB40003785AB /* AssistiveTouch */,
-				946E9B92223CEAFA003785AB /* Info.plist */,
+				94DD58412254827800FA967B /* AssistiveTouch.h */,
+				94DD58492254829300FA967B /* AssistiveTouch */,
+				94DD58422254827800FA967B /* Info.plist */,
 			);
 			path = AssistiveTouch;
 			sourceTree = "<group>";
 		};
-		946E9B99223CEB40003785AB /* AssistiveTouch */ = {
+		94DD58492254829300FA967B /* AssistiveTouch */ = {
 			isa = PBXGroup;
 			children = (
-				946E9B9A223CEB40003785AB /* ATRootViewC.swift */,
-				946E9B9B223CEB40003785AB /* ATItemView.swift */,
-				946E9B9C223CEB40003785AB /* AssistiveTouch.swift */,
-				946E9B9D223CEB40003785AB /* ATLayoutAttributes.swift */,
-				946E9B9E223CEB40003785AB /* ATViewC.swift */,
-				946E9B9F223CEB40003785AB /* ATNavigationC.swift */,
-				946E9BA0223CEB40003785AB /* ATPosition.swift */,
+				94DD584A2254829300FA967B /* ATRootViewC.swift */,
+				94DD584B2254829300FA967B /* ATItemView.swift */,
+				94DD584C2254829300FA967B /* AssistiveTouch.swift */,
+				94DD584D2254829300FA967B /* ATLayoutAttributes.swift */,
+				94DD584E2254829300FA967B /* ATViewC.swift */,
+				94DD584F2254829300FA967B /* ATNavigationC.swift */,
+				94DD58502254829300FA967B /* ATPosition.swift */,
 			);
 			path = AssistiveTouch;
-			sourceTree = "<group>";
-		};
-		946E9BAD223CEC6C003785AB /* demo */ = {
-			isa = PBXGroup;
-			children = (
-				946E9BAE223CEC6C003785AB /* AppDelegate.swift */,
-				946E9BB0223CEC6C003785AB /* ViewController.swift */,
-				946E9BB2223CEC6C003785AB /* Main.storyboard */,
-				946E9BB5223CEC6C003785AB /* Assets.xcassets */,
-				946E9BB7223CEC6C003785AB /* LaunchScreen.storyboard */,
-				946E9BBA223CEC6C003785AB /* Info.plist */,
-			);
-			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		946E9B89223CEAFA003785AB /* Headers */ = {
+		94DD58392254827800FA967B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946E9B93223CEAFA003785AB /* AssistiveTouch.h in Headers */,
+				94DD58432254827800FA967B /* AssistiveTouch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		946E9B8D223CEAFA003785AB /* AssistiveTouch */ = {
+		94DD583D2254827800FA967B /* AssistiveTouch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 946E9B96223CEAFA003785AB /* Build configuration list for PBXNativeTarget "AssistiveTouch" */;
+			buildConfigurationList = 94DD58462254827800FA967B /* Build configuration list for PBXNativeTarget "AssistiveTouch" */;
 			buildPhases = (
-				946E9B89223CEAFA003785AB /* Headers */,
-				946E9B8A223CEAFA003785AB /* Sources */,
-				946E9B8B223CEAFA003785AB /* Frameworks */,
-				946E9B8C223CEAFA003785AB /* Resources */,
+				94DD58392254827800FA967B /* Headers */,
+				94DD583A2254827800FA967B /* Sources */,
+				94DD583B2254827800FA967B /* Frameworks */,
+				94DD583C2254827800FA967B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,130 +110,69 @@
 			);
 			name = AssistiveTouch;
 			productName = AssistiveTouch;
-			productReference = 946E9B8E223CEAFA003785AB /* AssistiveTouch.framework */;
+			productReference = 94DD583E2254827800FA967B /* AssistiveTouch.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		946E9BAB223CEC6C003785AB /* demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 946E9BBD223CEC6C003785AB /* Build configuration list for PBXNativeTarget "demo" */;
-			buildPhases = (
-				946E9BA8223CEC6C003785AB /* Sources */,
-				946E9BA9223CEC6C003785AB /* Frameworks */,
-				946E9BAA223CEC6C003785AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = demo;
-			productName = demo;
-			productReference = 946E9BAC223CEC6C003785AB /* demo.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		946E9B85223CEAFA003785AB /* Project object */ = {
+		94DD58352254827800FA967B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = tian;
 				TargetAttributes = {
-					946E9B8D223CEAFA003785AB = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					946E9BAB223CEC6C003785AB = {
-						CreatedOnToolsVersion = 10.1;
+					94DD583D2254827800FA967B = {
+						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 946E9B88223CEAFA003785AB /* Build configuration list for PBXProject "AssistiveTouch" */;
+			buildConfigurationList = 94DD58382254827800FA967B /* Build configuration list for PBXProject "AssistiveTouch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 946E9B84223CEAFA003785AB;
-			productRefGroup = 946E9B8F223CEAFA003785AB /* Products */;
+			mainGroup = 94DD58342254827800FA967B;
+			productRefGroup = 94DD583F2254827800FA967B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				946E9B8D223CEAFA003785AB /* AssistiveTouch */,
-				946E9BAB223CEC6C003785AB /* demo */,
+				94DD583D2254827800FA967B /* AssistiveTouch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		946E9B8C223CEAFA003785AB /* Resources */ = {
+		94DD583C2254827800FA967B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		946E9BAA223CEC6C003785AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				946E9BB9223CEC6C003785AB /* LaunchScreen.storyboard in Resources */,
-				946E9BB6223CEC6C003785AB /* Assets.xcassets in Resources */,
-				946E9BB4223CEC6C003785AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		946E9B8A223CEAFA003785AB /* Sources */ = {
+		94DD583A2254827800FA967B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946E9BA2223CEB40003785AB /* ATItemView.swift in Sources */,
-				946E9BA4223CEB40003785AB /* ATLayoutAttributes.swift in Sources */,
-				946E9BA6223CEB40003785AB /* ATNavigationC.swift in Sources */,
-				946E9BA5223CEB40003785AB /* ATViewC.swift in Sources */,
-				946E9BA3223CEB40003785AB /* AssistiveTouch.swift in Sources */,
-				946E9BA7223CEB40003785AB /* ATPosition.swift in Sources */,
-				946E9BA1223CEB40003785AB /* ATRootViewC.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		946E9BA8223CEC6C003785AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				946E9BB1223CEC6C003785AB /* ViewController.swift in Sources */,
-				946E9BAF223CEC6C003785AB /* AppDelegate.swift in Sources */,
+				94DD58522254829300FA967B /* ATItemView.swift in Sources */,
+				94DD58542254829300FA967B /* ATLayoutAttributes.swift in Sources */,
+				94DD58562254829300FA967B /* ATNavigationC.swift in Sources */,
+				94DD58552254829300FA967B /* ATViewC.swift in Sources */,
+				94DD58532254829300FA967B /* AssistiveTouch.swift in Sources */,
+				94DD58572254829300FA967B /* ATPosition.swift in Sources */,
+				94DD58512254829300FA967B /* ATRootViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		946E9BB2223CEC6C003785AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				946E9BB3223CEC6C003785AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		946E9BB7223CEC6C003785AB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				946E9BB8223CEC6C003785AB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		946E9B94223CEAFA003785AB /* Debug */ = {
+		94DD58442254827800FA967B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -331,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		946E9B95223CEAFA003785AB /* Release */ = {
+		94DD58452254827800FA967B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +294,7 @@
 			};
 			name = Release;
 		};
-		946E9B97223CEAFA003785AB /* Debug */ = {
+		94DD58472254827800FA967B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -400,7 +305,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AssistiveTouch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,12 +314,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tian.AssistiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		946E9B98223CEAFA003785AB /* Release */ = {
+		94DD58482254827800FA967B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -425,7 +330,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AssistiveTouch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,43 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tian.AssistiveTouch;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		946E9BBB223CEC6C003785AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tian.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		946E9BBC223CEC6C003785AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tian.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -478,34 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		946E9B88223CEAFA003785AB /* Build configuration list for PBXProject "AssistiveTouch" */ = {
+		94DD58382254827800FA967B /* Build configuration list for PBXProject "AssistiveTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				946E9B94223CEAFA003785AB /* Debug */,
-				946E9B95223CEAFA003785AB /* Release */,
+				94DD58442254827800FA967B /* Debug */,
+				94DD58452254827800FA967B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		946E9B96223CEAFA003785AB /* Build configuration list for PBXNativeTarget "AssistiveTouch" */ = {
+		94DD58462254827800FA967B /* Build configuration list for PBXNativeTarget "AssistiveTouch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				946E9B97223CEAFA003785AB /* Debug */,
-				946E9B98223CEAFA003785AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		946E9BBD223CEC6C003785AB /* Build configuration list for PBXNativeTarget "demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				946E9BBB223CEC6C003785AB /* Debug */,
-				946E9BBC223CEC6C003785AB /* Release */,
+				94DD58472254827800FA967B /* Debug */,
+				94DD58482254827800FA967B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 946E9B85223CEAFA003785AB /* Project object */;
+	rootObject = 94DD58352254827800FA967B /* Project object */;
 }
